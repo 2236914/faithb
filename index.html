@@ -4,6 +4,8 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Faith B.</title>
+  <link rel="icon" type="image/png" href="https://em-content.zobj.net/source/apple/419/laptop_1f4bb.png"/>
+  <link rel="shortcut icon" type="image/png" href="https://em-content.zobj.net/source/apple/419/laptop_1f4bb.png"/>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -166,16 +168,12 @@
     .avatar {
       width: 76px; height: 76px;
       border-radius: 16px;
-      background: linear-gradient(135deg, #c84b31 0%, #e8734a 100%);
+      background: url('img/faithb.jpg') center/cover no-repeat;
       flex-shrink: 0;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 26px;
-      font-weight: 700;
-      color: white;
-      letter-spacing: -0.03em;
-      box-shadow: 0 4px 14px rgba(200,75,49,0.28);
+      box-shadow: none;
     }
 
     .header-main { flex: 1; }
@@ -825,6 +823,7 @@
       GitHub
     </a>
     <a href="https://faithbanares.framer.website/" target="_blank" class="nav-link cta">Creative Portfolio</a>
+  </div>
 
   <button class="burger" id="burgerBtn" onclick="toggleMenu()">
     <span></span><span></span><span></span>
@@ -853,7 +852,7 @@
   <!-- HEADER -->
   <div class="header-card">
     <div class="header-top">
-      <div class="avatar">FA</div>
+      <div class="avatar" aria-label="Faith Banares profile photo"></div>
       <div class="header-main">
         <div class="header-name">Faith Anne F. Banares</div>
         <div class="header-title">Web Developer &amp; UI/UX Designer &nbsp;·&nbsp; Frontend · QA · Service Management</div>
